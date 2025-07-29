@@ -9,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "echo \"No tests specified\" && exit 0",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "acefile",
@@ -44,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/acefile-converter.git"
+    "url": "https://github.com/ziliscite/vibeb-acefile-converter.git"
   },
-  "homepage": "https://your-username.github.io/acefile-converter"
+  "homepage": "https://ziliscite.github.io/vibeb-acefile-converter"
 }
